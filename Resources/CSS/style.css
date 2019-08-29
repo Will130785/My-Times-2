@@ -134,3 +134,25 @@ nav span a {
 .menu p {
     border-bottom: 1px solid black;
 }
+
+/*Footer*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: mediumaquamarine;
+    font-family: Verdana;
+    font-size: 12px;
+}
+
+.foot-logo {
+    display: inline-block;
+    font-family: Georgia;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+}
+
