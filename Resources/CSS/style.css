@@ -12,8 +12,6 @@ header {
     align-items: center;
     width: 100%;
     height: 80px;
-    position: fixed;
-    z-index: 1;
     font-family: Verdana;
     font-size: 14px;
     font-weight: bold;
@@ -36,4 +34,25 @@ header {
 nav span a {
     display: inline-block;
     color: black;
+}
+
+/*Container*/
+
+.container {
+    display: flex;
+}
+
+.column-large {
+    display: flex;
+    flex-direction: column;
+}
+
+.column-medium {
+    display: flex;
+    flex-direction: column;
+}
+
+.column-small {
+    display: flex;
+    flex-direction: column;
 }
